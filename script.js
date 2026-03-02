@@ -123,7 +123,7 @@ function escapeHtml(text) {
 async function sendToGemini(userMessage) {
     conversationHistory.push({ role: 'user', parts: [{ text: userMessage }] });
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${apiKey}`;
 
     const body = {
         system_instruction: { parts: [{ text: RUPESH_CONTEXT }] },
