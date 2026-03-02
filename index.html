@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupesh Pathak | Robotics Perception Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">RP</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#ai-interview" class="nav-cta">AI Interview</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Rupesh Pathak</h1>
+            <p class="hero-title">Robotics Perception Engineer</p>
+            <p class="hero-subtitle">Building real-time perception, state estimation, and motion planning systems for robotic manipulation. Specialized in 3D vision, 6D pose estimation, SLAM, and sensor fusion.</p>
+            <div class="hero-links">
+                <a href="mailto:pathal.r@northeastern.edu" class="btn btn-primary">Get in Touch</a>
+                <a href="#ai-interview" class="btn btn-secondary">Interview AI Me</a>
+                <a href="https://github.com/pathal-r" target="_blank" class="btn btn-ghost">GitHub</a>
+                <a href="https://linkedin.com/in/" target="_blank" class="btn btn-ghost">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <p>Robotics Perception Engineer with 4+ years of experience developing real-time perception, state estimation, and motion planning systems for robotic manipulation. I specialize in translating advanced robotics research into high-performance real-world systems.</p>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <span class="highlight-number">60x</span>
+                        <span class="highlight-label">Cycle time reduction</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">&lt;1cm</span>
+                        <span class="highlight-label">Localization accuracy</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">100%</span>
+                        <span class="highlight-label">Grasp success (known)</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">3.94</span>
+                        <span class="highlight-label">GPA (MS Robotics)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Robotics Software Engineer – Perception</h3>
+                            <span class="timeline-company">Black-I-Robotics, Boston, MA</span>
+                            <span class="timeline-date">Aug 2024 – Oct 2025</span>
+                        </div>
+                        <ul>
+                            <li>Architected a full perception-to-manipulation pipeline for automated pallet pick-and-place using a custom robotic arm, validated with 24-hour continuous runtime in lab and factory.</li>
+                            <li>Developed YOLOv8 segmentation model achieving 0.96 precision / 0.92 recall at 30 FPS on NVIDIA A1000 GPU.</li>
+                            <li>Built hybrid 6D pose estimation system achieving ±1.5 cm accuracy at 720p with 0.5 s inference for up to 30 objects.</li>
+                            <li>Implemented GPU-accelerated point-to-plane ICP on 20K-point clouds, reducing alignment error from 1 m to 1 cm.</li>
+                            <li>Performed multi-camera extrinsic calibration for 5 RealSense sensors, achieving 0.4 px reprojection error.</li>
+                            <li>Accelerated motion planning with NVIDIA CuRobo — 60x throughput improvement (3 min → 3 sec cycle time).</li>
+                            <li>Optimized full stack using CUDA, multithreading, and async execution for real-time deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Data Scientist</h3>
+                            <span class="timeline-company">Veridix AI, MD, USA</span>
+                            <span class="timeline-date">Aug 2024 – Present</span>
+                        </div>
+                        <ul>
+                            <li>Developed scalable backend and ML pipelines using Python and AWS infrastructure.</li>
+                            <li>Designed production-grade systems with secure authentication and CI/CD integration.</li>
+                            <li>Applied predictive modeling and automated data extraction for intelligent decision workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>C</span><span>SQL</span><span>MATLAB</span><span>Asyncio</span><span>Multiprocessing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Robotics</h3>
+                    <div class="skill-tags">
+                        <span>ROS</span><span>ROS2</span><span>MoveIt</span><span>NVIDIA CuRobo</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Perception</h3>
+                    <div class="skill-tags">
+                        <span>YOLOv8</span><span>3D Vision</span><span>6D Pose Estimation</span><span>ICP</span><span>SLAM</span><span>AprilTag</span><span>SfM</span><span>Pose Graph Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>State Estimation</h3>
+                    <div class="skill-tags">
+                        <span>Kalman Filter</span><span>Extended Kalman Filter</span><span>Complementary Filter</span><span>Sensor Fusion</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Deep Learning</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span><span>TensorFlow</span><span>CNN Architectures</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Point Cloud & Optimization</h3>
+                    <div class="skill-tags">
+                        <span>PCL</span><span>Eigen</span><span>GTSAM</span><span>CUDA</span><span>Multithreading</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Simulation</h3>
+                    <div class="skill-tags">
+                        <span>NVIDIA Isaac Sim</span><span>PyBullet</span><span>Gazebo</span><span>Webots</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Hardware</h3>
+                    <div class="skill-tags">
+                        <span>NVIDIA Jetson</span><span>Intel RealSense</span><span>3D LiDAR</span><span>NVIDIA A1000</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>Docker</span><span>Git</span><span>SolidWorks</span><span>Fusion 360</span><span>AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Research Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Vehicle Pose Estimation Using GPS and IMU</h3>
+                    <p>Fused 800 Hz IMU and 20 Hz RTK-GPS using Extended Kalman Filter to reduce localization error from 15–20 cm to 5 cm. Modeled IMU drift using Allan variance analysis. Maintained pose estimation in GPS-denied environments.</p>
+                    <div class="project-tags"><span>EKF</span><span>Sensor Fusion</span><span>IMU</span><span>GPS</span></div>
+                    <a href="https://github.com/pathal-r/Vehicle-Pose-Estimation" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Sensor Fusion of 3D LiDAR and RGB-D Camera</h3>
+                    <p>Built a high-precision mapping pipeline fusing 3D LiDAR and Intel RealSense data. Reduced mapping error from 10–30 cm to sub-centimeter accuracy through point cloud alignment and filtering.</p>
+                    <div class="project-tags"><span>LiDAR</span><span>RGB-D</span><span>Point Cloud</span><span>Mapping</span></div>
+                    <a href="https://github.com/pathal-r/Lidar-camera-Segmentation-Fusion" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Multiview Stereo and Pose Graph Optimization</h3>
+                    <p>Implemented multiview stereo reconstruction using SIFT feature matching and bundle adjustment. Developed pose graph optimization across 25+ images, improving homography estimation accuracy by 2 pixels.</p>
+                    <div class="project-tags"><span>SfM</span><span>Bundle Adjustment</span><span>SIFT</span><span>Pose Graph</span></div>
+                    <a href="https://github.com/pathal-r/Multiview-Stereo" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Reinforcement Learning for Robotic Reach Task</h3>
+                    <p>Trained DDPG + HER agent (21D state, 6D action space) achieving 99% success rate across 3000 episodes in PyBullet simulation at 300 FPS. Reduced training time by 50% through domain design and reward shaping.</p>
+                    <div class="project-tags"><span>DDPG</span><span>HER</span><span>PyBullet</span><span>RL</span></div>
+                    <a href="https://github.com/pathal-r/Robot-Reach-RL" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Image Mosaicing</h3>
+                    <p>Panoramic stitching pipeline using iterative homography estimation across 6 images, with pose graph generation and optimization.</p>
+                    <div class="project-tags"><span>Homography</span><span>Stitching</span><span>OpenCV</span></div>
+                    <a href="https://github.com/pathal-r/Image-Mosaic-" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Shadow Removal (Deep Learning)</h3>
+                    <p>PyTorch implementations of DeshadowNet and shadow removal architectures for automatic shadow detection and removal from images.</p>
+                    <div class="project-tags"><span>PyTorch</span><span>CNN</span><span>Image Processing</span></div>
+                    <a href="https://github.com/pathal-r/DeshadowNet-Pytorch" target="_blank" class="project-link">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <h3>Master of Science in Robotics</h3>
+                    <p class="edu-school">Northeastern University, Boston, MA</p>
+                    <p class="edu-date">May 2024 | GPA: 3.94/4.0</p>
+                    <p class="edu-courses">Advanced Perception, Autonomous Field Robotics, Robot Sensing and Navigation, Reinforcement Learning, Computer Vision, ML and Pattern Recognition</p>
+                </div>
+                <div class="edu-card">
+                    <h3>B.Tech in Mechatronics (Robotics)</h3>
+                    <p class="edu-school">SRM Institute of Science and Technology, India</p>
+                    <p class="edu-date">May 2022 | GPA: 8.18/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-interview">
+        <div class="container">
+            <h2 class="section-title">AI Interview with Rupesh</h2>
+            <p class="interview-subtitle">Ask me anything about my experience, skills, or projects. This AI version of me will answer based on my background.</p>
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="chat-message bot">
+                        <div class="message-avatar">RP</div>
+                        <div class="message-bubble">Hi! I'm an AI version of Rupesh. Feel free to ask me about my robotics experience, projects, technical skills, or anything else you'd like to know. Think of this as a casual interview!</div>
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <div class="api-key-notice" id="apiKeyNotice">
+                        <p>To chat, enter a <a href="https://aistudio.google.com/apikey" target="_blank">free Google Gemini API key</a> (your key stays in your browser only):</p>
+                        <div class="api-key-input-row">
+                            <input type="password" id="apiKeyInput" placeholder="Paste your Gemini API key here...">
+                            <button id="saveKeyBtn" class="btn btn-primary">Save Key</button>
+                        </div>
+                    </div>
+                    <form id="chatForm" class="chat-form" style="display:none;">
+                        <input type="text" id="userInput" placeholder="Ask me anything..." autocomplete="off">
+                        <button type="submit" class="btn btn-primary" id="sendBtn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rupesh Pathak. Built with plain HTML, CSS, and JS.</p>
+            <div class="footer-links">
+                <a href="mailto:pathal.r@northeastern.edu">Email</a>
+                <a href="https://github.com/pathal-r" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
